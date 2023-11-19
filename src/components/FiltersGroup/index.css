@@ -1,0 +1,85 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+.searchContainer {
+  background-color: #f1f5f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  height: 30px;
+}
+
+.searchButton {
+  background-color: transparent;
+  border-width: 0px;
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  height: 30px;
+}
+
+.categoryHeading {
+  font-size: 18px;
+}
+
+/* Write your CSS here */
+
+.categoryList {
+  list-style: none;
+}
+
+.categoryPara1 {
+  color: #64748b;
+}
+
+.categoryPara2 {
+  color: #0967d2;
+}
+
+.ratingListItem1 {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  color: #64748b;
+}
+
+.ratingListItem2 {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  color: #0967d2;
+}
+
+.starImg {
+  height: 20px;
+  width: 150px;
+}
+
+.clearFilterBtn {
+  background-color: transparent;
+  border: 1px solid #0967d2;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: #0967d2;
+}
